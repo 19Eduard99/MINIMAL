@@ -32,7 +32,6 @@ header {
 .container{
     max-width: 960px;
     margin: auto;
-
 }
 .d_flex{
     display: flex;

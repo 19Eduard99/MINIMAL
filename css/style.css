@@ -278,6 +278,64 @@ section article p{
     display: flex;
     justify-content: center;
 }
+/*slider*/
+/*.slider_item{
+    height: 500px;
+}*/
+.div_flex{
+    display: flex;
+    justify-content: center;
+}
+.slider_item {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.slider_item h3{
+    text-align: center;
+}
+.slider_item p{
+    text-align: center;
+}
+.slick-list{
+    margin: 0 30px;
+}
+.slick-prev:before, .slick-next:before{
+    background: black;
+    width: 40px;
+    height: 20px;
+}
+.slick-arrow, .slick-arrow:hover{
+    z-index: 1;
+}
+.slick-prev:before{
+    width: 20px;
+    height: 20px;
+}
+.slick-center{
+    transform: scale(2.8);
+}
+/*.slick-active{*/
+/*    transform: scale(1.08);*/
+/*}*/
+.slick-next {
+    right: 119px;
+}
+.slick-arrow:before{
+    font-size: 40px;
+    color: yellow;
+}
+.slick-dots{
+    bottom: -50px;
+}
+.slick-dots li button:before{
+    font-size: 20px;
+    color: snow;
+}
+.slick-dots li.slick-active button:before{
+    color: yellow;
+}
+/*slider*/
 .art_div article blockquote{
     max-width: 338px;
     margin: auto;
@@ -289,7 +347,7 @@ section article p{
     color: #333333;
 }
 
-.art_div article p{
+.art_div article  p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -299,15 +357,16 @@ section article p{
     text-transform: uppercase;
     color: #ABABAB;
 }
-.art_divv article ul li a{
+.slider ul li a{
     text-align: center;
 }
-.art_divv article ul{
+.slider  ul{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     list-style: none;
 }
-.art_divv article ul li .twitter:before{
+.slider  ul li .twitter:before{
     content: url("../img/twitter.svg");
     display: inline-block;
     border-radius: 50%;
@@ -318,7 +377,7 @@ section article p{
     padding-left: 11px;
     padding-bottom: 11px;
 }
-.art_divv article ul li .linkdin:before{
+.slider  ul li .linkdin:before{
     content: url("../img/linkdin.svg");
     display: inline-block;
     border-radius: 50%;
@@ -328,7 +387,7 @@ section article p{
     padding-right: 11px;
     padding-left: 11px;
 }
-.art_divv article ul li .sms:before{
+.slider  ul li .sms:before{
     content: url("../img/smss.svg");
     display: inline-block;
     border-radius: 50%;
@@ -338,7 +397,7 @@ section article p{
     padding-right: 11px;
     padding-left: 11px;
 }
-.art_divv article ul li .insta:before{
+.slider  ul li .insta:before{
     content: url("../img/insta.svg");
     display: inline-block;
     border-radius: 50%;
@@ -348,7 +407,7 @@ section article p{
     padding-right: 11px;
     padding-left: 11px;
 }
-.art_divv article ul li .be:before{
+.slider  ul li .be:before{
     content: url("../img/be.svg");
     display: inline-block;
     border-radius: 50%;
@@ -358,7 +417,7 @@ section article p{
     padding-right: 11px;
     padding-left: 11px;
 }
-.art_divv article ul li .fut:before{
+.slider ul li .fut:before{
     content: url("../img/fur.svg");
     display: inline-block;
     border-radius: 50%;
@@ -383,6 +442,7 @@ section article p{
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    margin-bottom: 25px;
 }
 .contt_div h2:after {
     display: block;

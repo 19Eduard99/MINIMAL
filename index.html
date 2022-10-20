@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick.css">
     <title>MINIMAL</title>
 </head>
 <body>
@@ -92,50 +94,59 @@
     <section>
         <div class="contt_div">
             <h2>our team</h2>
-            <div class="art_divv">
-                <article class="Ron">
-                    <img src="img/RonSwanson.jpg" alt="Ron">
-                    <h3>Ron Swanson</h3>
-                    <p>Founder</p>
-                    <ul>
-                        <li><a class="twitter" href="#"></a></li>
-                        <li><a class="linkdin" href="#"></a></li>
-                        <li><a class="sms" href="#"></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <img src="img/JuliaDepish.jpg" alt="Julia">
-                    <h3>Julia Depish</h3>
-                    <p>Marketing</p>
-                    <ul>
-                        <li><a class="twitter" href="#"></a></li>
-                        <li><a class="linkdin" href="#"></a></li>
-                        <li><a class="sms" href="#"></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <img src="img/DannyDevry.jpg" alt="Danny">
-                    <h3>Danny Devry</h3>
-                    <p>Designer</p>
-                    <ul>
-                        <li><a class="insta" href="#"></a></li>
-                        <li><a class="twitter" href="#"></a></li>
-                        <li><a class="be" href="#"></a></li>
-                        <li><a class="fut" href="#"></a></li>
-                        <li><a class="sms" href="#"></a></li>
-                    </ul>
-                </article>
-                <article>
-                    <img src="img/LisaSmith.jpg" alt="Lisa">
-                    <h3>Lisa Smith</h3>
-                    <p>Developer</p>
-                    <ul>
-                        <li><a class="twitter" href="#"></a></li>
-                        <li><a class="linkdin" href="#"></a></li>
-                        <li><a class="sms" href="#"></a></li>
-                    </ul>
-                </article>
-            </div>
+                <div class="slider">
+                    <div class="slider_item">
+                        <div class="div_flex">
+                            <img src="img/RonSwanson.jpg" alt="Ron">
+                        </div>
+                            <h3>Ron Swanson</h3>
+                            <p>Founder</p>
+                            <ul>
+                                <li><a class="twitter" href="#"></a></li>
+                                <li><a class="linkdin" href="#"></a></li>
+                                <li><a class="sms" href="#"></a></li>
+                            </ul>
+                    </div>    
+                    <div class="slider_item">
+                        <div class="div_flex">
+                            <img src="img/JuliaDepish.jpg" alt="Julia">
+                        </div>
+                            <h3>Julia Depish</h3>
+                            <p>Marketing</p>
+                            <ul>
+                                <li><a class="twitter" href="#"></a></li>
+                                <li><a class="linkdin" href="#"></a></li>
+                                <li><a class="sms" href="#"></a></li>
+                            </ul>
+                    </div>
+                    <div class="slider_item">
+                        <div class="div_flex">  
+                            <img src="img/DannyDevry.jpg" alt="Danny">
+                        </div>
+                            <h3>Danny Devry</h3>
+                            <p>Designer</p>
+                            <ul>
+                                <li><a class="insta" href="#"></a></li>
+                                <li><a class="twitter" href="#"></a></li>
+                                <li><a class="be" href="#"></a></li>
+                                <li><a class="fut" href="#"></a></li>
+                                <li><a class="sms" href="#"></a></li>
+                            </ul>
+                    </div>  
+                    <div class="slider_item"> 
+                        <div class="div_flex">
+                            <img src="img/LisaSmith.jpg" alt="Lisa">
+                        </div> 
+                            <h3>Lisa Smith</h3>
+                            <p>Developer</p>
+                            <ul>
+                                <li><a class="twitter" href="#"></a></li>
+                                <li><a class="linkdin" href="#"></a></li>
+                                <li><a class="sms" href="#"></a></li>
+                            </ul>
+                    </div>
+                </div>
+                           
         </div>
     </section>
     <section>
@@ -256,7 +267,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="jquery.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
 </body>
 </html>
